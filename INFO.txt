@@ -1,0 +1,30 @@
+==================
+
+- Make a TCP server in NodeJS (any version)
+    127.0.0.1 | Port 1000
+    
+  - Make a TCP client in C++ that connects to the TCP server of NodeJS, the information of the server (127.0.0.1:10000) must be passed as an argument to the program.
+  
+    the C++ program must send an object (serialized as JSON) as soon as it starts that contain:
+      - Current filepath of the program
+      - Current username
+      - Is he admin (admin true/false)
+    (You can decide on the JSON structure)
+
+    Username should not be passed through an argument.
+    
+    If the nodeJS server is offline, it must retry every 30 seconds until it's online.
+    If the nodeJS server is online, it must reply with a confirmation of any sort and then stop the program.
+      
+  - If the NodeJS server receives something that isn't a valid JSON, it must return 'error' to the TCP client
+
+
+
+
+
+Return a ZIP file within 2 hours from receiving this. 
+
+
+GOODLUCK!
+
+==================
