@@ -29,6 +29,6 @@ server.on('error', (err) => {
   throw err;
 });
 
-server.listen(10000, () => {
-  console.log('Server listening on port 10000');
+server.listen(8000, () => {
+  console.log('Server listening on port 8000');
 });

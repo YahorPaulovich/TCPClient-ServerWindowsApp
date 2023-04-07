@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCP-CPlusPlusClient", "TCP-CPlusPlusClient\TCP-CPlusPlusClient.vcxproj", "{F582491A-C934-4BAF-83BF-974BCB5C9332}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommandLineOperations", "CommandLineOperations\CommandLineOperations.vcxproj", "{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{F582491A-C934-4BAF-83BF-974BCB5C9332}.Release|x64.Build.0 = Release|x64
 		{F582491A-C934-4BAF-83BF-974BCB5C9332}.Release|x86.ActiveCfg = Release|Win32
 		{F582491A-C934-4BAF-83BF-974BCB5C9332}.Release|x86.Build.0 = Release|Win32
+		{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}.Debug|x64.ActiveCfg = Debug|x64
+		{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}.Debug|x64.Build.0 = Debug|x64
+		{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}.Debug|x86.Build.0 = Debug|Win32
+		{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}.Release|x64.ActiveCfg = Release|x64
+		{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}.Release|x64.Build.0 = Release|x64
+		{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}.Release|x86.ActiveCfg = Release|Win32
+		{57D5B015-E7B6-4BE5-B383-EF8BDBD7B1AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

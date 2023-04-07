@@ -44,7 +44,7 @@ int main(int argc, char* argv[]) {
         struct sockaddr_in serverAddress;
         serverAddress.sin_family = AF_INET;
         serverAddress.sin_port = htons(1000);
-        InetPton(AF_INET, _T(argv[1]), &serverAddress.sin_addr.s_addr);
+        InetPton(AF_INET, inet_addr(argv[1]), &serverAddress.sin_addr.s_addr);
 
         iResult = connect(clientSocket, (SOCKADDR*)&serverAddress, sizeof(serverAddress));
         if (iResult == SOCKET_ERROR) {
